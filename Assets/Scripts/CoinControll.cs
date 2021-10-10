@@ -9,7 +9,7 @@ public class CoinControll : MonoBehaviour
     public float spawnRate = 0f;
     public float nextSpawn = 0f;
 
-    private float[] linepos = { 3.57f, 2.23f, -0.83f, -3.29f, - 4.08f};
+    private float[] linepos = { 3.57f, 2.23f, -0.83f, -3.29f, - 4.00f};
     float randomX;
     int randomY;
 
@@ -27,5 +27,7 @@ public class CoinControll : MonoBehaviour
             nextSpawn = Time.time + spawnRate;
             Debug.Log(Time.time + spawnRate);
         }
+
+       
     }
 }
